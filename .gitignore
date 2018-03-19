@@ -32,3 +32,4 @@
 .idea
 .idea/*
 .env
+config/storage.yml
