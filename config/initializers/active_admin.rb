@@ -99,6 +99,9 @@ ActiveAdmin.setup do |config|
   #
   # Default:
   config.logout_link_path = :destroy_admin_user_session_path
+  # config.authorization_adapter = ActiveAdminAdapter
+  # config.on_unauthorized_access = :access_denied
+
 
   # This setting changes the http method used when rendering the
   # link. For example :get, :delete, :put, etc..
