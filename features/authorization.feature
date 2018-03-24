@@ -25,4 +25,4 @@ Feature:
   Scenario: Visitor tries to create and article
     Given I am logged in as "Vistor@email.com"
     And I visit the create article page
-    Then I should see message "you are not authorized to do that"
+    Then I should see message "You are not authorized to do that"

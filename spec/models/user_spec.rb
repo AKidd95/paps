@@ -7,6 +7,7 @@ RSpec.describe User, type: :model do
     it { is_expected.to have_db_column :longitude }
     it { is_expected.to have_db_column :latitude }
     it { is_expected.to have_db_column :address }
+    it { is_expected.to have_db_column :role }
   end
 
   describe "Factory" do
